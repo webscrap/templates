@@ -1,0 +1,35 @@
+html {margin:0px;background: white}
+body {font-family: Verdana, Arial, Helvetica, sans-serif;color:#000000; font-size:11px;line-height:150%;margin:0px;background: #ffffff;margin:20px;}
+a:link {color: #663300;background: transparent}
+a:visited {color: #997744;background: transparent}
+a:active {color: #ff0000;background: transparent;
+text-decoration: none}
+a:hover {text-decoration: underline; color: #ff9900; text-decoration: none}
+code,pre {font-family: "Courier New", monospace; color:#663300; } /* To avoid overriding boldness/italicity by using font */
+div {margin: 0em 0% 0em 0%; line-height: 13pt}
+small {font-size: 9px;}
+h1,h2,h3,h4,h5,h6 { color:black; }
+h1 {margin-bottom: 0; font-size: 20px; }
+h2 {margin-bottom: 0; font-size: 17px; border-bottom:1px solid #cccccc; }
+h3 {margin-bottom: 0; font-size: 15px;}
+h4 {margin-bottom: 0; font-size: 13px;}
+h5 {margin-bottom: 0; font-size: 12px;}
+h6 {margin-bottom: 0; font-size: 10px;}
+hr {margin: 0em 0% 0em 0%; color: #000000; height: 1px }
+input radio { border:none; }
+ol.demo-list li { margin-bottom:10px; }
+th { text-align:left;}
+
+/* Example code */
+.example-code { background-color:#fff4c8;border:1px dashed #ffcc00; padding:3px; margin:20px; }
+.example-display { background-color:#ffffff; border:1px dashed #ffcc00; padding:3px; margin:20px; }
+.separator {border-bottom:1px solid #cccccc}
+textarea.example-code { height:80px;width:95%;min-width:100px;max-width:500px;font-size:12px; }
+.separator {border-bottom:1px solid #cccccc}
+
+td {
+    vertical-align:text-top;
+    padding-left:30px;
+    padding-right:30px;
+}
+#mainTable { background-color:#fff4c8;border:1px dashed #ffcc00; padding:3px;}

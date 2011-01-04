@@ -1,0 +1,27 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <title>BOOKNAME</title>
+    <style type="text/css" media="all">
+      @import url("./stylesheet/cs2w.css");
+    </style>
+    <meta name="description" content="BOOKNAME" />
+    <meta name="robots" content="index,follow" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"></meta>
+    <script src="tree_items.js" language="javascript"></script>
+  </head>
+  <script>
+    document.write('<frameset cols="30%,*" border="5" >');
+    document.write('<frame src="cs2w_tree.html" name="tree" id="tree" scrolling="Auto" />');
+    document.write('<frame name="contents" src="' + (TREE_ITEMS[0][2][1] ? TREE_ITEMS[0][2][1] : "about:blank")  + '" id="contents" frameborder="1" marginwidth="10" marginheight="10">');
+    document.write('</frameset>');
+  </script>
+  <noscript>
+    <frameset cols="30%,*" border="5">
+      <frame src="cs2w_tree.html" name="tree" id="tree" scrolling="Auto" />
+      <frame src="about:blank" name="contents" id="contents" frameborder="1" marginwidth="10" marginheight="10" />
+    </frameset>
+  </noscript>
+  <body>
+  </body>
+</html>
